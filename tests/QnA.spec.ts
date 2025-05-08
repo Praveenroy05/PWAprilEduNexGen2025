@@ -16,3 +16,13 @@ test('Click on anthem link dynamically for a given country', async ({ page }) =>
     console.log(`No anthem link found for ${country}.`);
   }
 });
+
+
+// Assignment - 
+// URL - https://demoqa.com/select-menu
+// Go to Multiselect drop down and select all the drop down values one by one
+// For loop
+
+
+
+// trace.playwright.dev - This will help us in opening the trace file or log file
