@@ -26,3 +26,9 @@ test('Click on anthem link dynamically for a given country', async ({ page }) =>
 
 
 // trace.playwright.dev - This will help us in opening the trace file or log file
+
+
+
+// Scroll Down - scrollIntoViewIfNeeded()
+// Download 
+// Calendar Selection
