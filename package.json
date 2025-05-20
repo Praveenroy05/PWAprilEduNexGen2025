@@ -12,6 +12,7 @@
     "@types/node": "^22.14.1"
   },
   "dependencies": {
+    "playwright": "^1.52.0",
     "playwrighttsapr2025": "file:"
   }
 }

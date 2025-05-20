@@ -45,8 +45,14 @@ test('Drop down developed using select tag handling', async function({page}){
     await page.waitForTimeout(2000) 
 
     await page.goto("https://demoqa.com/select-menu")
+    
     await page.locator("#cars").selectOption([{label:'Volvo'}, {label:'Saab'}, {label:'Audi'}])
     await page.waitForTimeout(2000) 
+
+
+
+
+
 
 })
 
