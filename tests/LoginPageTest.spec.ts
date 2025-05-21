@@ -12,7 +12,7 @@ let incorrectPassword :string = "Test123"
 let loginPage
 test.beforeEach(async ({page})=>{
     loginPage = new LoginPage(page)
-    await loginPage.LaunchURL(url)
+    await loginPage.launchURL(url)
 })
 
 test("Valid Login Test", async ({page})=>{

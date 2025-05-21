@@ -34,7 +34,7 @@ export class LoginPage{
     // ValidLogin()
     // InvalidLogin()
 
-    async LaunchURL(url:string){
+    async launchURL(url:string){
         await this.page.goto(url)
     }
 
